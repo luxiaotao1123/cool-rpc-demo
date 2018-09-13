@@ -12,7 +12,7 @@ public class CoolRpcConfig {
     /** 注册中心--服务注册 */
     @Bean
     ServiceCenter getServiceRegistry(){
-        return new ZooKeeperServiceRegistry("127.0.0.1",2181);
+        return new ZooKeeperServiceRegistry("106.15.205.155",2181);
     }
 
     @Bean

@@ -1,2 +1,6 @@
 # cool-rpc-demo
-Cool-RPC简单实战
+##Cool-RPC simple demo
+
+> 先启动 ProviderBoot.java
+
+> 后启动 ConsumerBoot.java

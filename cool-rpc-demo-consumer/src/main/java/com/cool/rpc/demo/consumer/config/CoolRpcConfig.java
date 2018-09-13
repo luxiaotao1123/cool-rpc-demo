@@ -12,7 +12,7 @@ public class CoolRpcConfig {
     /** 注册中心--服务发现 */
     @Bean
     ServiceCenter getServiceDiscovery(){
-        return new ZooKeeperServiceDiscovery("127.0.0.1",2181);
+        return new ZooKeeperServiceDiscovery("106.15.205.155",2181);
     }
 
     @Bean("coolProxy")
